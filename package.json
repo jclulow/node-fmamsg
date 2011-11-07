@@ -1,0 +1,23 @@
+{
+	"name": "fmamsg",
+	"version": "0.0.1",
+	"dependencies": {
+		"bigdecimal": ">= 0.6.0"
+	},
+	"devDependencies": {
+		"nodeunit": "*"
+	},
+	"author": {
+		"name": "Joshua M. Clulow",
+		"email": "josh@sysmgr.org",
+		"url": "http://blog.sysmgr.org"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/jclulow/node-fmamsg"
+	},
+	"engines": [ "node" ],
+	"main": "lib/diagcode.js",
+	"description": "Encode/decode of Sun FMA Message IDs (e.g. ZFS-8000-1W)",
+	"homepage": "https://github.com/jclulow/node-fmamsg"
+}
